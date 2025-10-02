@@ -1,7 +1,18 @@
+/*variaveis*/
+:root {
+    --navy: #0B1A3A;
+    --navy-2: #11295B;
+    --red: #E02020;
+    --red-2: #B81616;
+    --white: #FFFFFF;
+    --black: #111111;
+    --soft: #F6F8FC;
+}
+
 /*hero*/
 .hero {
-    background: linear-gradient(135deg, #005bea, #00c6fb);
-    color: white;
+    background: linear-gradient(135deg, var(--navy), var(--navy-2));
+    color: var(--white);
     padding: 120px 20px;
     text-align: center;
 }
@@ -12,11 +23,12 @@
     max-width: 900px;
     margin: auto;
     line-height: 1.4;
+    color: var(--white);
 }
 
 .hero h2 strong {
-    background: #2243ff;
-    color: #fff;
+    background: var(--navy-2);
+    color: var(--white);
     padding: 5px 10px;
     border-radius: 6px;
 }
@@ -29,6 +41,7 @@
     margin-left: auto;
     margin-right: auto;
     font-style: italic;
+    color: var(--white);
 }
 
 .hero .btn-cta {
@@ -37,29 +50,31 @@
     font-size: 1.1rem;
     font-weight: 600;
     border-radius: 8px;
-    background-color: #08007c;
-    color: #fff;
+    background: var(--red);
+    color: var(--white);
     border: none;
     transition: 0.3s ease;
     text-transform: uppercase;
 }
 
 .hero .btn-cta:hover {
-    background-color: #0b003d;
+    background-color: var(--red-2);
     transform: scale(1.05);
 }
 
 /*Para quem é essa mentoria*/
 .para-quem-mentoria {
-    background: linear-gradient(135deg, #ffffff, #f0f6ff);
-    color: rgb(0, 0, 0);
+    background: var(--soft);
+    color: var(--black);
     padding: 20px;
     text-align: center;
 }
 
 .para-quem-mentoria h2 {
+    color: var(--navy);
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: .5px;
 }
 
 .para-quem-mentoria ul {
@@ -70,7 +85,7 @@
 }
 
 .para-quem-mentoria ul li i {
-    color: #0066ff;
+    color: var(--navy); 
     margin-right: 10px;
     font-size: 1.4rem;
 }
@@ -87,7 +102,7 @@
 
     .hero h2 strong {
         background: none;
-        color: #fff;
+        color: var(--white);
         padding: 5px 10px;
         border-radius: 6px;
     }
