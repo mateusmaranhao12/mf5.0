@@ -190,9 +190,134 @@
     margin-left: auto;
     margin-right: auto;
     font-weight: 700;
-    
+
 }
 
+/* Seção 4 — A Promessa */
+.promessa {
+    background-color: var(--navy-3);
+    color: var(--soft);
+    padding: 48px 20px;
+    text-align: center;
+}
+
+.promessa h2 {
+    color: var(--soft);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+
+.promessa .list-promessa {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto 10px auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+.promessa .list-promessa li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0;
+    font-size: 1.12rem;
+    line-height: 1.6;
+}
+
+.promessa .list-promessa li i {
+    color: var(--aquablue);
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+/* Callouts de velocidade/tempo (caixa leve com borda marinho) */
+.promessa .promessa-callouts {
+    max-width: 900px;
+    margin: 28px auto 0 auto;
+}
+
+.promessa .nota {
+    background: var(--navy-2);
+    border: 1px solid var(--navy-4);
+    /* sutil no tom do marinho */
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 10px 0;
+    font-size: 1.05rem;
+}
+
+.promessa .nota i.fa-bolt {
+    color: var(--navy);
+    margin-right: 6px;
+}
+
+/*Metodo*/
+.metodo {
+    background: linear-gradient(135deg, var(--navy), var(--navy-2));
+    padding: 48px 20px;
+    text-align: center;
+}
+
+.metodo .list-metodo {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.metodo .item-metodo {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: var(--navy-2);
+    border: 1px solid var(--navy-4);
+    padding: 16px 20px;
+    border-radius: 8px;
+    color: var(--soft);
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.metodo .item-metodo i {
+    color: var(--aquablue);
+    font-size: 1.4rem;
+    flex-shrink: 0;
+    margin-top: 4px;
+}
+
+.metodo .item-metodo strong {
+    color: var(--white);
+}
+
+.metodo p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white);
+}
+
+.metodo .btn-quero-aprender {
+    margin-top: 30px;
+    padding: 15px 35px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    background: var(--green);
+    color: var(--white);
+    border: none;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+}
+
+.metodo .btn-quero-aprender:hover {
+    background-color: var(--green-2);
+    transform: scale(1.05);
+}
 
 @media (max-width: 768px) {
 
