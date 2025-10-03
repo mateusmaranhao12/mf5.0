@@ -1,9 +1,14 @@
 /*variaveis*/
 :root {
-    --navy: #0B1A3A;
-    --navy-2: #11295B;
+    --navy: #04041c;
+    --navy-2: #040414;
+    --navy-3: #06091f;
+    --navy-4: #1a223b;
+    --aquablue: rgb(157, 255, 255);
     --red: #E02020;
     --red-2: #B81616;
+    --green: #00a01b;
+    --green-2: #006411;
     --white: #FFFFFF;
     --black: #111111;
     --soft: #F6F8FC;
@@ -50,7 +55,7 @@
     font-size: 1.1rem;
     font-weight: 600;
     border-radius: 8px;
-    background: var(--red);
+    background: var(--green);
     color: var(--white);
     border: none;
     transition: 0.3s ease;
@@ -58,20 +63,26 @@
 }
 
 .hero .btn-cta:hover {
-    background-color: var(--red-2);
+    background-color: var(--green-2);
     transform: scale(1.05);
 }
 
 /*Para quem é essa mentoria*/
 .para-quem-mentoria {
-    background: var(--soft);
+    background: var(--navy-3);
     color: var(--black);
     padding: 20px;
     text-align: center;
 }
 
+.para-quem-mentoria .card-mentoria {
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .para-quem-mentoria h2 {
-    color: var(--navy);
+    color: var(--white);
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: .5px;
@@ -85,18 +96,103 @@
 }
 
 .para-quem-mentoria ul li i {
-    color: var(--navy); 
+    color: var(--green);
     margin-right: 10px;
     font-size: 1.4rem;
 }
 
 .para-quem-mentoria ul li {
+    color: var(--black);
     list-style: none;
     display: flex;
     align-items: center;
     margin-bottom: 15px;
     font-size: 1.1rem;
 }
+
+.para-quem-mentoria h3 {
+    color: var(--white);
+}
+
+.para-quem-mentoria p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    color: var(--white);
+}
+
+/*A dor do mercado*/
+.dor-do-mercado {
+    background: linear-gradient(135deg, var(--navy), var(--navy-2));
+    color: var(--black);
+    padding: 20px;
+    text-align: center;
+}
+
+.dor-do-mercado .card-dor-do-mercado {
+    background-color: var(--navy-3);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--navy-4);
+}
+
+.dor-do-mercado h2 {
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+.dor-do-mercado ul {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.dor-do-mercado ul li i {
+    color: var(--red);
+    margin-right: 10px;
+    font-size: 1.4rem;
+}
+
+.dor-do-mercado ul li {
+    color: var(--white);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.dor-do-mercado h3 {
+    color: var(--white);
+}
+
+.dor-do-mercado p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white);
+}
+
+.dor-do-mercado h5 {
+    color: var(--aquablue);
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    
+}
+
 
 @media (max-width: 768px) {
 
@@ -105,6 +201,10 @@
         color: var(--white);
         padding: 5px 10px;
         border-radius: 6px;
+    }
+
+    .dor-do-mercado h5 {
+        font-weight: 1.2rem;
     }
 
 }
