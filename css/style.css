@@ -260,6 +260,13 @@
     text-align: center;
 }
 
+.metodo h2 {
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
 .metodo .list-metodo {
     display: flex;
     flex-direction: column;
@@ -319,6 +326,517 @@
     transform: scale(1.05);
 }
 
+/* Quem é Thiago Vini */
+.thiago-vini {
+    background: var(--navy-3);
+    /* fundo escuro */
+    color: var(--soft);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.thiago-vini h2 {
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .5px;
+    margin-bottom: 40px;
+}
+
+.thiago-vini .list-thiago {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+.thiago-vini .list-thiago li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 14px 0;
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.thiago-vini .list-thiago li i {
+    color: var(--aquablue);
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+
+/*Receber*/
+.receber {
+    background: var(--navy-2);
+    color: var(--soft);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.receber h2 {
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .5px;
+    margin-bottom: 40px;
+}
+
+.receber .list-receber {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 900px;
+}
+
+.receber .list-receber li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 14px 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.receber .list-receber li i {
+    color: var(--aquablue);
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+
+.receber .receber-callout {
+    background: var(--navy-3);
+    border: 1px solid var(--navy-4);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 1.05rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white);
+    line-height: 1.6;
+}
+
+/* Seção 8 — Investimento */
+.investimento {
+    background: var(--navy-3);
+    color: var(--soft);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.investimento h2 {
+    color: var(--soft);
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.cards-investimento {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.card-investimento {
+    background: var(--navy-2);
+    border: 1px solid var(--navy-4);
+    border-radius: 10px;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform .2s ease;
+
+}
+
+.card-investimento:hover {
+    transform: translateY(-4px);
+}
+
+.card-investimento h3 {
+    color: var(--soft);
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.card-investimento .valor {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--soft);
+}
+
+.card-investimento .valor span {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.card-investimento.destaque {
+    border: 2px solid var(--green);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.card-investimento .mais-vantajosa {
+    margin-top: 10px;
+    color: var(--green);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.texto-extra {
+    margin-top: 30px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.btn-investimento {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 40px;
+    background: var(--green);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background .2s ease, transform .2s ease;
+}
+
+.btn-investimento:hover {
+    background: var(--green-2);
+    transform: scale(1.05);
+}
+
+/* Depoimentos */
+.depoimentos {
+    background: var(--navy-2);
+    color: var(--soft);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.depoimentos h2 {
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .5px;
+    margin-bottom: 40px;
+}
+
+.card-depoimento {
+    background: var(--navy-3);
+    border: 1px solid var(--navy-4);
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-depoimento span {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--aquablue);
+}
+
+/* Placeholder do vídeo */
+.video-depoimento {
+    max-width: 800px;
+    margin: 40px auto 0 auto;
+}
+
+.video-placeholder {
+    background: #111;
+    border: 2px dashed var(--aquablue);
+    border-radius: 10px;
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--soft);
+    cursor: pointer;
+    transition: background .2s ease;
+}
+
+.video-placeholder:hover {
+    background: #1a1a1a;
+}
+
+.video-placeholder i {
+    font-size: 2.5rem;
+    color: var(--aquablue);
+    margin-bottom: 15px;
+}
+
+/* Escassez e Urgência */
+.urgencia {
+    background: var(--navy-3);
+    color: var(--soft);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.urgencia h2 {
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .5px;
+    margin-bottom: 40px;
+}
+
+.urgencia .list-urgencia {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    max-width: 700px;
+    background-color: var(--navy-2);
+    border: 1px solid var(--navy-4);
+    border-radius: 20px;
+}
+
+.urgencia .list-urgencia li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 14px 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.urgencia .list-urgencia li i {
+    color: var(--red);
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+
+.urgencia .urgencia-callout {
+    background: var(--navy-2);
+    border: 1px solid var(--navy-4);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin: 20px auto 30px auto;
+    font-size: 1.05rem;
+    max-width: 800px;
+    color: var(--white);
+    line-height: 1.6;
+}
+
+.urgencia .urgencia-callout i {
+    color: var(--aquablue);
+    margin-right: 8px;
+}
+
+.btn-urgencia {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 40px;
+    background: var(--green);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background .2s ease, transform .2s ease;
+    text-transform: uppercase;
+}
+
+.btn-urgencia:hover {
+    background: var(--green-2);
+    transform: scale(1.05);
+}
+
+/* Seção 11 — Garantia */
+.garantia {
+    background: var(--navy-2);
+    color: var(--soft);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.garantia h2 {
+    color: var(--white);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.garantia .texto-garantia {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+/* Seção 12 — Acesso */
+.acesso {
+    background: var(--navy-3);
+    color: var(--soft);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.acesso h2 {
+    color: var(--white);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.acesso .list-acesso {
+    display: inline-block;
+    text-align: left;
+    margin: 20px auto 0 auto;
+    padding: 0;
+    max-width: 700px;
+}
+
+.acesso .list-acesso li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0;
+    font-size: 1.1rem;
+}
+
+.acesso .list-acesso li i {
+    color: var(--aquablue);
+    font-size: 1.2rem;
+}
+
+/* Seção 13 — Chamada Final */
+.chamada-final {
+    background: var(--navy-2);
+    color: var(--black);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.chamada-final h2 {
+    color: var(--soft);
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.chamada-final .opcoes {
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+    text-align: left;
+}
+
+.chamada-final .opcoes p {
+    color: var(--white);
+}
+
+.chamada-final .opcoes i.fa-circle-xmark {
+    color: var(--red);
+}
+
+.chamada-final .opcoes i.fa-circle-check {
+    color: var(--aquablue);
+}
+
+.chamada-final .fechamento-texto {
+    max-width: 800px;
+    margin: 20px auto 30px auto;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    font-style: italic;
+    color: var(--white);
+}
+
+.btn-chamada {
+    display: inline-block;
+    padding: 15px 40px;
+    background: var(--green);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background .2s ease, transform .2s ease;
+}
+
+.btn-chamada:hover {
+    background: var(--green-2);
+    transform: scale(1.05);
+}
+
+/* FAQ Section */
+.faq {
+    margin: 0 auto;
+    background: var(--navy-3);
+}
+
+.faq h2 {
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .5px;
+    text-align: center;
+}
+
+.faq .accordion-button {
+    background: var(--navy-2) !important;
+    color: var(--white) !important;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 12px 16px;
+    border: none !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.faq .accordion-button:hover {
+    background: var(--navy-2) !important;
+    color: var(--white) !important;
+}
+
+.faq .accordion-button:not(.collapsed) {
+    background: var(--navy) !important;
+    color: var(--white) !important;
+    box-shadow: none !important;
+}
+
+.faq .accordion-button::after {
+    filter: invert(1);
+}
+
+.faq .accordion-item {
+    margin-bottom: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: none !important;
+    background: transparent;
+}
+
+/* Corpo da resposta */
+.faq .accordion-body {
+    background: var(--navy-2);
+    color: var(--soft);
+    padding: 14px 16px;
+    border-top: none !important;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/*Responsividade*/
+@media (min-width: 1024px) {
+    .cards-investimento {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
 
     .hero h2 strong {
@@ -330,6 +848,10 @@
 
     .dor-do-mercado h5 {
         font-weight: 1.2rem;
+    }
+
+    .cards-investimento {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
